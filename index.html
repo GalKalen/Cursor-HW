@@ -11,20 +11,41 @@
 <body>
     <div>
 
-        <ul>Git Cheat Sheet</ul>
-        <li>git config --global user.name blabla</li>
-        <li>git config --global user.email blabal@bla</li>
-        <li>git init</li>
-        <li>git status</li>
-        <li>git add</li>
-        <li>git commit</li>
-        <li>git log</li>
-        <li>git checkout</li>
-        <li>git branch</li>
-        <li>git push</li>
-        <li>git pull</li>
-        <li>git merge</li>
-        <li>git clone</li>
+        <p>
+            <strong> <i>Git Cheat Sheet (basic)</i></strong>
+        </p>
+
+        <li>
+            <b>git config --global user.name blabla</b> - set a name that is identifiable for credit when
+            review version history
+        </li>
+        <li><b>git config --global user.email blabal@bla</b>- set an email address that will be associated
+            with each history marker </li>
+        <li><b>git init</b>- initialize an existing directory as a Git repository</li>
+        <li><b>git status</b>- show modified files in working directory, staged for your next commit</li>
+        <li><b>git add</b>- add a file as it looks now to your next commit (stage)</li>
+        <li><b>git commit</b>- commit your staged content as a new commit snapshot</li>
+        <li><b>git log</b>- show all commits in the current branch’s history</li>
+        <li><b>git checkout</b>- switch to another branch and check it out into your working directory</li>
+        <li><b>git branch</b>- create a new branch at the current commit</li>
+        <li><b>git push</b>- transmit local branch commits to the remote repository branch</li>
+        <li><b>git pull</b>- fetch and merge any commits from the tracking remote branch</li>
+        <li><b>git merge</b>- merge a remote branch into your current branch to bring it up to date</li>
+        <li><b>git clone</b>- retrieve an entire repository from a hosted location via URL</li>
+        <p><b>.gitignore specifies intentionally untracked files that Git should ignore</b>
+    </div>
+    <div>
+        <p>
+            <strong> <i>Git Cheat Sheet (advanced)</i></strong>
+        </p>
+        <li><b>git revert</b>- to record some new commits to reverse the effect of some earlier commits
+            (often
+            only a
+            faulty one)</li>
+        <li><b>git reset</b>- clear staging area, rewrite working tree from specified commit</li>
+        <li><b>git rebase</b>- apply any commits of current branch ahead of specified one</li>
+        <li><b>git cherry-pick</b>- choose a commit from one branch and apply it onto another</li>
+        <li><b>git stash</b>- save modified and staged changes</li>
     </div>
 </body>
 
