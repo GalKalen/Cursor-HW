@@ -1,0 +1,79 @@
+.body{
+  background: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+  max-width: 1440px;
+}
+
+.version {
+  color: #0B2239;
+  opacity: 0.3;
+}
+
+.made{
+  color: #0B2239;
+  opacity: 0.3;
+}
+
+.title{
+  font-size: 50px;
+  font-weight: 900;
+  color: #0B2239;
+}
+
+.examples{
+  color: #0B2239;
+  opacity: 0.3;
+  font-size: 10;
+  padding-top: 100px;
+}
+
+.main-box{
+  height: 1430px;
+  width: 1488px;
+  left: 5224px;
+  top: 1109px;
+  border-radius: 0px;
+  padding-top: 100px;
+}
+
+.long-dark-blue-banner{
+  width: 1440px;
+  height: 72px;
+  background: #0B2239;
+  color: white
+}
+
+.by-clicking{
+  font-size: 13px;
+  color: #FFFFFF;
+  float:left;
+  margin: 16px 42px 16px 120px;
+  position: relative;
+  width: 922px;
+  height: 40px;
+}
+
+.cookie-settings{
+  font-size: 12px;
+  text-decoration-line: underline;
+  color: #4AD295;
+  background-color:  #0B2239;
+  border: 0;
+  flex-direction: row;
+  float: left;
+  margin-top: 25px;
+  position: relative;
+}
+
+.accept-all-cookies {
+  font-size: 12px;
+  color: #FFFFFF;
+  background-color: #4AD295;
+  border: 0;
+  padding: 10px 8px;
+  border-radius: 2px;
+  float: left;
+  padding: 8px 10px;
+  position: relative;
+  margin-top: 20px;
+}
