@@ -2,10 +2,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-.main-box{
-display: flex;
-flex-direction: column;
-}
 
 .box-1{
     position: absolute;
@@ -202,7 +198,19 @@ height: 64px;
 
 }
 
-.box-3{
-
+.footer {
+    width: 1440px;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
 }
+
+.menu{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
 
