@@ -82,6 +82,14 @@ flex-direction: column;
     background: #FFFFFF;
 }
 
+.form1{
+    position: absolute;
+    width: 107px;
+    height: 17px;
+    left: 176px;
+    top: 117px;
+}
+
 .contact-box-2{
     font-weight: 600;
     font-size: 36px;
@@ -99,6 +107,100 @@ height: 64px;
     color: #000000;
 }
 
+.form2{
+    position: absolute;
+    width: 540px;
+    height: 305px;
+    left: 735px;
+    top: 117px;
+}
+
+.container1{
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.name{
+    position: absolute;
+    width: 78px;
+    height: 19px;
+    left: 31px;
+    top: 21px;
+    font-size: 16px;
+    line-height: 19px;
+    color:  rgba(19, 39, 67, 0.5);;
+    border-radius: 6px;
+}
+
+.container2 {
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left:285px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.number{
+    position: absolute;
+    width: 106px;
+    height: 19px;
+    left: 31px;
+    top: 21px;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+}
+
+.container3 {
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    top: 84px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.container4 {
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    top: 168px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+
+.btn {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    top: 252px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.submit {
+    position: absolute;
+    width: 92px;
+    height: 17px;
+    left: 34px;
+    top: 17px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
 
 .box-3{
 
