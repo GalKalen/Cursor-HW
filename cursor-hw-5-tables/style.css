@@ -1,28 +1,76 @@
 .main-body {
     background-color: #2C2C2C;
     font-family: 'Roboto', sans-serif;
+    
 }
 
+.main-body img{
+    height: 20px;
+    width: 20px;
+}
 
 .tables {
-width: 870px;
-height: 250px;
-border: 1px solid #807676;
-background-color: #333232;
-border-radius: 7px;
-color: white;
+    width: 870px;
+    height: 250px;
+    box-shadow: 0 0 0 1px grey;
+    background-color: #333232;
+    border-radius: 7px;
+    color: white;
 
 }
 
 .tables thead{
-    height: 40px;
     text-align: left;
 }
 
-.tables img {
-    height: 15px;
-    width: 15px;
+.tables th{
+    box-shadow: #818181; 
+    height: 60px;
+   
 }
+
+
+
+.cell-2{
+    color: grey;
+    width: 35%;
+}
+ 
+.cell-3 {
+    text-align: center;
+    width: 10%;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+    border: 1px solid #393939;   
+    padding: 5px; 
+    margin-right: 10px;
+}
+
+.search{
+    height: 50px;
+    width: 200px;
+    background-color: #444444;
+    border: 1px solid #333232;
+    border-radius: 7px;
+    text-align: center;
+  
+    
+}
+.placeholder{
+    color: #818181;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif; 
+    padding-left: 10px;
+}
+
+.folder{
+    margin-right: 7px;
+}
+
 
 
 
