@@ -17,7 +17,7 @@
     border-radius: 7px;
     color: white;
     border-collapse: collapse;
-    border-color: gray;
+  
 }
 
 .tables thead{
@@ -26,8 +26,16 @@
  
 .tables th{
     box-shadow: #818181; 
-    height: 60px;   
+    height: 60px; 
+    border-bottom: 1px solid grey;
+    border: none;  
 }
+
+
+tr{
+    border-bottom: 1px solid gray;
+}
+
 
 .cell-0{
     color:white;
@@ -36,6 +44,7 @@
     border-top: 0px;
     border-right: 0px;
     padding-left: 10px;
+    border-bottom: 1px solid gray;
 }
 
 .cell-0 img{
@@ -50,6 +59,8 @@
     border-left: 0px;
     width: 50%;
     padding-left: 10px;
+    border: none;
+   
 }
 
 .cell-1 img{
@@ -60,17 +71,18 @@
 .cell-2{
     color: grey;
     width: 35%;
-    border-bottom: 0px;
+    border-bottom: 1px solid gray;
     border-left: 0px;
     border-right: 0px;
+    border: none;
 }
  
 .cell-3 {
     text-align: center;
     width: 10%;
-    border-bottom: 0px;
     border-left: 0px;
     padding-left: 10px;
+    
 }
 
 .checkbox{
@@ -108,6 +120,10 @@
 
 .folder{
     margin-right: 7px;
+}
+
+.last-raw {
+    border-bottom: 0px;
 }
 
 
