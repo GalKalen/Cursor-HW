@@ -1,6 +1,7 @@
 .main-body {
     background-color: #2C2C2C;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .main-body img{
@@ -16,7 +17,7 @@
     border-radius: 7px;
     color: white;
     border-collapse: collapse;
-    border-color: ;
+    border-color: gray;
 }
 
 .tables thead{
@@ -29,18 +30,31 @@
 }
 
 .cell-0{
-    color: grey;
+    color:white;
     border-bottom: 0px;
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
+    padding-left: 10px;
+}
+
+.cell-0 img{
+    width: 12px;
+    height: 12px;
+   
 }
 
 .cell-1 {
-    color: grey;
+    color:white;
     border-bottom: 0px;
     border-left: 0px;
     width: 50%;
+    padding-left: 10px;
+}
+
+.cell-1 img{
+    width: 25px;
+    height: 20px;
 }
 
 .cell-2{
@@ -56,12 +70,14 @@
     width: 10%;
     border-bottom: 0px;
     border-left: 0px;
+    padding-left: 10px;
 }
 
 .checkbox{
     height: 20px;
     width: 20px;
-    border: 1px solid #393939;   
+    background-color: #444444;
+    border: 1px solid #333232;
     padding: 5px; 
     margin-right: 10px;
     text-decoration-color: #818181;
