@@ -68,6 +68,7 @@ tr{
     height: 20px;
 }
 
+
 .cell-2{
     color: grey;
     width: 35%;
@@ -88,11 +89,11 @@ tr{
 .checkbox{
     height: 20px;
     width: 20px;
-    background-color: #444444;
-    border: 1px solid #333232;
+    
+    border: 0px solid #333232;
     padding: 5px; 
     margin-right: 10px;
-    text-decoration-color: #818181;
+   
 }
 
 .search-parent{
@@ -126,6 +127,10 @@ tr{
 .last-raw {
     border-bottom: 0px;
 }
+
+
+
+
 
 
 
