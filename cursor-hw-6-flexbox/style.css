@@ -1,0 +1,196 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #F6FAFD;
+    padding-left: 240px;
+    padding-right: 112px;
+    padding-top: 62px;
+    display: flexbox;
+    flex-direction: column;
+   
+
+}
+main{
+    width: 1248px;
+height: 754px;
+left: 240px;
+top: 50px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.header img {
+    width: 49px;
+    height: 35px;
+    left: 240px;
+    top: 62px;
+}
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4B5D68;
+    text-decoration-line: none;
+    padding: 40px;
+
+}
+
+.about {
+    width: 53px;
+    height: 30px;
+    left: 410px;
+    top: 65px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    text-decoration-line: none;
+
+}
+
+.request-demo {
+width: 210px;
+height: 60px;
+left: 1150px;
+top: 50px;
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+font-size: 112px;
+font-weight: 800;
+font-size: 16px;
+letter-spacing: 0.005em;
+color: #212353;
+border: none;
+
+}
+
+.block-1{
+display: flex;
+flex-wrap:unset;
+margin-bottom: 99px;
+
+}
+.block-1-1 {
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+   
+  
+}
+h1{
+width: 645px;
+height: 184px;
+left: 240px;
+top: 240px;
+font-weight: bold;
+font-size: 80px;
+line-height: 110%;
+display: flex;
+align-items: center;
+color: #212353;
+}
+
+.data-warehouse{
+    width: 380px;
+height: 120px;
+left: 240px;
+top: 474px;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+}
+
+
+
+.two-women-img {
+
+width: 885px;
+height: 468px;
+left: 603px;
+top: 336px;
+flex
+}
+
+.block-1-btn {
+    width: 170px;
+    height: 60px;
+    left: 240px;
+    top: 644px;
+    background: #9C69E2;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+    
+}
+
+.block-2 {
+    
+    width: 1117px;
+    height: 560px;
+   
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    justify-content:center
+    
+    
+    
+    
+}
+
+.we-are {
+font-weight: bold;
+font-size: 40px;
+color: #212353;
+
+}
+
+.the-place {
+width: 474px;
+height: 170px;
+left: 790px;
+top: 1168.18px;
+font-weight: 500;
+font-size: 18px;
+color: #4B5D68;
+}
+
+.block-2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.features {
+    width: 405px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #212353;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 150px;
+  
+   
+   
+}
+
+.some-of {
+    width: 584px;
+    height: 58px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #4B5D68;
+    text-align: center;
+    margin-left: 200px;
+    }
+
+    
