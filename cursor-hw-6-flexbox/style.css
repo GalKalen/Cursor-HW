@@ -91,6 +91,7 @@ main {
     display: flex;
     align-items: center;
     color: #212353;
+    margin-bottom: 50px;
 }
 
 .data-warehouse{
@@ -102,18 +103,22 @@ main {
     font-size: 18px;
     line-height: 160%;
     color: #4B5D68;
+    margin-bottom: 66px;
 }
 
 .block-1-btn {
     width: 170px;
     height: 60px;
-    left: 240px;
-    top: 644px;
     background: #9C69E2;
     border-radius: 50px;
     font-weight: 800;
     font-size: 18px;
+    border: none;
+}
+
+.learn-more {
     color: #FFFFFF;
+    text-decoration-line: none;
 }
 
 .block-2 {
@@ -271,6 +276,16 @@ hr {
 footer {
     display: flex;
     flex-direction: column;
+}
+
+.pink-btn {
+    width: 170px;
+    height: 60px;
+    background: #F063B8;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
 }
     
 
