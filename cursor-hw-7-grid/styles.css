@@ -1,0 +1,30 @@
+body {
+    width: 1440px;
+    height: 4512px;
+    background: #FFFFFF;
+}
+
+.header-menu{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-top: 30px;
+margin-left: 80px;
+}
+
+header img{
+    left: 5.56%;
+    right: 85.01%;
+    top: 0.66%;
+    bottom: 98.14%; 
+}
+
+nav a{
+    margin-left: 54px;
+    color: #111111;
+    text-decoration-line: none;
+}
+
+.underlined {
+    text-decoration-line: underline;
+}
